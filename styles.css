@@ -1,10 +1,7 @@
 i{
     font-size: 28px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
 }
-button{
+button,i{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: italic;
@@ -13,4 +10,15 @@ button{
     padding-top: 10px;
     margin-top: 10px;
     border-bottom: 3px solid black;
+}
+
+ul.nav,ul.nav li.nav-item a{
+    border: 0px;
+    padding-right: 1%;
+}
+ul.nav,ul.nav li.nav-item a i{
+    justify-content: end;
+}
+.tab-content{
+    display: ;
 }
